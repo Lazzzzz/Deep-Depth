@@ -1,5 +1,6 @@
 package com.deepdepth;
 
+import com.deepdepth.registries.DimensionRegistry;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
@@ -75,6 +76,8 @@ public class DeepDepth
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
 
+        DimensionRegistry.register();
+        
         // Register ourselves for server and other game events we are interested in
         NeoForge.EVENT_BUS.register(this);
 
