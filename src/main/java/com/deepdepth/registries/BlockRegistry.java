@@ -10,6 +10,7 @@ public class BlockRegistry {
 
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, DeepDepth.MODID);
 	
+    public static void initBlocks() {
     	
     }
     
