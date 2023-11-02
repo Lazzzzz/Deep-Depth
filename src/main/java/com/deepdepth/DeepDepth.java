@@ -75,7 +75,7 @@ public class DeepDepth
         ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         CREATIVE_MODE_TABS.register(modEventBus);
-
+        
         DimensionRegistry.register();
         
         // Register ourselves for server and other game events we are interested in

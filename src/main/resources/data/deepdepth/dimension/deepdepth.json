@@ -2,7 +2,7 @@
   "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
-    "settings": "minecraft:overworld",
+    "settings": "deepdepth:deepdepth",
     "biome_source": {
       "type": "minecraft:multi_noise",
       "biomes": [
@@ -19,14 +19,14 @@
           }
         },
         {
-          "biome": "minecraft:beach",
+          "biome": "minecraft:deep_ocean",
           "parameters": {
             "temperature": 0,
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
             "weirdness": 0,
-            "depth": 0,
+            "depth": -2,
             "offset": 0
           }
         }
